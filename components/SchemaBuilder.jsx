@@ -55,10 +55,8 @@ export default function SchemaBuilder() {
       {/* <header className="bg-white shadow-sm">
         <div className="max-w-7xl mx-auto px-4 py-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-2">
-            <Wand2 className="h-8 w-8 text-blue-500" />
-            <h1 className="text-2xl font-bold text-gray-900">
-              AI Prompt Builder
-            </h1>
+           
+            <h2 class="section-title">Start Building Your JSON Schema</h2>
           </div>
         </div>
       </header> */}

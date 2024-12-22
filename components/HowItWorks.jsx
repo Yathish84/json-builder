@@ -28,9 +28,9 @@ export function HowItWorks() {
   ];
 
   return (
-    <div className="bg-gray-50 rounded-lg p-6">
+    <div className="bg-gray-50 rounded-lg p-6 ">
       <h2 className="text-xl font-semibold text-gray-800 mb-6">How It Works</h2>
-      <div className="grid md:grid-cols-4 gap-6">
+      <div className="grid md:grid-cols-4 gap-6 pb-6">
         {steps.map((step, index) => (
           <div key={index} className="flex flex-col items-center text-center">
             <div className="w-12 h-12 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center mb-3">
