@@ -1,7 +1,7 @@
 
 export function isFieldValid(field) {
   // Check basic field properties
-  if (!field.name.trim() || !field.description.trim()) {
+  if (!field?.name?.trim() || !field?.description?.trim()) {
     return false;
   }
 

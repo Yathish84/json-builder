@@ -73,7 +73,7 @@ export function FieldEditor({ field, onUpdate, onRemove }) {
             <Input
               type="text"
               placeholder="e.g., userName"
-            //   className="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500"
+              //   className="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500"
               value={field.name}
               onChange={(e) => onUpdate({ name: e.target.value })}
             />
@@ -137,7 +137,6 @@ export function FieldEditor({ field, onUpdate, onRemove }) {
             value={field.description}
             onChange={(e) => onUpdate({ description: e.target.value })}
           />
-         
         </div>
 
         <div className="mt-4">

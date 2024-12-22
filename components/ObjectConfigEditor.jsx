@@ -93,7 +93,7 @@ export function ObjectConfigEditor({ properties, onUpdate, level = 0 }) {
               />
               <FieldDescription
                 value={prop.description}
-                onChange={(description) => updateProperty(key, { description })}
+                onChange={(e) => updateProperty(key, { description:e.target.value })}
               />
               <RequiredCheckbox
                 checked={prop.required}
